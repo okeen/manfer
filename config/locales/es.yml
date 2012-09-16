@@ -1,0 +1,26 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+es:
+  menu:
+    home: Inicio
+    services: Servicios
+    links: Enlaces
+    contact: Contacto
+  company:
+    home:
+      main:
+        title: Nuestras Oficinas
+        content: Gestión integral de Comunidades de Propietarios, acorde con los principios de total transparencia y fiabilidad en cuanto al control de ingresos y gastos, con emisión puntual de informes económicos semestrales; agilidad y eficacia en la resolución de averías; probada experiencia en temas legales de Propiedad Horizontal; asesoramiento cualificado a medio de Técnicos asociados para dictamen y proyecto sobre realización de Obras Mayores de reparación y reforma en los edificios.
+    services:
+      title: Nuestros Servicios
+      content: Gestión de facturación mensual.-Atención de averías.- Remisión de informe económico semestral.- Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar.- Asesoría Jurídica sobre temas de Propiedad Horizontal.- Gestión de reclamación a morosos.- Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo.- Seguros de Comunidades.- Seguros Especiales de Garajes.- Seguros de Hogar.- Seguros Varios.
+    contact:
+      form:
+        submit: Enviar
+
+  contact:
+
+    interest:
+      comunidades: Comunidades
+      seguros: Seguros
