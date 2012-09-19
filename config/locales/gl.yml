@@ -1,5 +1,5 @@
 # Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+# See https://github.com/titlesvenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 gl:
   menu:
@@ -13,7 +13,7 @@ gl:
         title: As Nosas Oficinas
         content: Xestión integral de Comunidades de Propietarios, acorde cos principios de total transparencia e fiabilidad en cuanto ó control de ingresos e gastos, coa emisión puntual de informes económicos semestrales; axilidade e eficacia na resolución de averías; probada experiencia en temas legales de Propiedade Horizontal; asesoramento cualificado a medio de Técnicos asociados para dictamen e proxecto sobre realización de Obras Maiores de reparación e reforma nos edificios.
     services:
-      title: Nos Servizos
+      title: Servizos
       content: Gestión de facturación mensual.-Atención de averías.- Remisión de informe económico semestral.- Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar.- Asesoría Jurídica sobre temas de Propiedad Horizontal.- Gestión de reclamación a morosos.- Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo.- Seguros de Comunidades.- Seguros Especiales de Garajes.- Seguros de Hogar.- Seguros Varios.
       comunity:
         title_comunity: Comunidade
