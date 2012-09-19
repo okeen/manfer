@@ -27,6 +27,16 @@ gl:
         com_ask_subvention: Tramitación de solicitude de subvencións ante o Instituto Galego da Vivienda e Solo (IGVS)
         com_budgets: Confeción de presupostos ordinarios e extraordinarios
         com_maintenance: Xestión de reparación e mantenimento do edificio, baixo supervisión e visto bo do Presidente da Comunidad
+      insurance:
+        title: Seguros
+        ins_comunity: Seguros de Comunidade
+        ins_home: Seguros do Fogar
+        ins_life: Seguros de Vida
+        ins_car: Seguros do Automóbil
+        ins_boat: Seguros de Embarcacións
+        ins_decennial: Seguro Decenal
+        ins_house: Seguros de Casa
+        ins_burial: Decesos
     contact:
       form:
         submit: Enviar
