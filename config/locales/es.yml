@@ -37,6 +37,7 @@ es:
         ins_decennial: Seguro Decenal
         ins_house: Seguros de Casa
         ins_burial: Decesos
+      submit_form_contact: Contactar
     contact:
       form:
         submit: Enviar
