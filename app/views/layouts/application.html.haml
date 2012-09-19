@@ -15,7 +15,8 @@
     .subbar
       .container
         .row
-          .span12= yield :title
+          .span12
+            %h1= yield :title
 
     .container
       -#= render 'submenu'

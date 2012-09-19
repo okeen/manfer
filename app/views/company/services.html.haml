@@ -1,3 +1,5 @@
+- content_for :title do t(".title") end
+
 - comunity_services_list = ["com_fact_monthly","com_at_breakdown","com_rep_semiannual_economy",
 "com_cel_assembly","com_ad_legal","com_claim_defaulter","com_custom_attention",
 "com_ask_subvention","com_budgets","com_maintenance"]
@@ -6,9 +8,6 @@
 "ins_boat","ins_decennial","ins_house","ins_burial"]
 
 .container
-  .row
-    .span12
-      %h1= t(".title")
   .row
     .span12
       .well
