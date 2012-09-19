@@ -1,2 +1,12 @@
-%h1 Company#services
-%p Find me in app/views/company/services.html.haml
+- comunity_services_list=["com_fact_monthly","com_at_breakdown","com_rep_semiannual_economy",
+"com_cel_assembly","com_ad_legal","com_claim_defaulter","com_custom_attention",
+"com_ask_subvention","com_budgets","com_maintenance"]   
+.container
+  .row
+    .span12
+      .well
+        %h1= t(".comunity.title_comunity")
+        %ul
+        -comunity_services_list.each do |service|
+          %li= comunity_services_traductor(service)
+

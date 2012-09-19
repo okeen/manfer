@@ -10,11 +10,23 @@ es:
   company:
     home:
       main:
-        title: Nuestras Oficinas
+        title: Nuestras com_maintenanceOficinas
         content: Gestión integral de Comunidades de Propietarios, acorde con los principios de total transparencia y fiabilidad en cuanto al control de ingresos y gastos, con emisión puntual de informes económicos semestrales; agilidad y eficacia en la resolución de averías; probada experiencia en temas legales de Propiedad Horizontal; asesoramiento cualificado a medio de Técnicos asociados para dictamen y proyecto sobre realización de Obras Mayores de reparación y reforma en los edificios.
     services:
       title: Nuestros Servicios
       content: Gestión de facturación mensual.-Atención de averías.- Remisión de informe económico semestral.- Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar.- Asesoría Jurídica sobre temas de Propiedad Horizontal.- Gestión de reclamación a morosos.- Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo.- Seguros de Comunidades.- Seguros Especiales de Garajes.- Seguros de Hogar.- Seguros Varios.
+      comunity:
+        title_comunity: Comunidad
+        com_fact_monthly: Gestión de facturación mensual
+        com_at_breakdown: Atención de averías
+        com_rep_semiannual_economy: Remisión de informe económico semestral
+        com_cel_assembly: Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar
+        com_ad_legal: Asesoría Jurídica sobre temas de Propiedad Horizontal
+        com_claim_defaulter: Gestión de reclamación a morosos
+        com_custom_attention: Atención personalizada a cada propietario con cuentas individualizadas.
+        com_ask_subvention: Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo (IGVS)
+        com_budgets: Confección de presupuestos ordinarios y extraordinarios
+        com_maintenance: Gestión de reparación y mantenimiento del edificio, bajo supervisión y visto bueno del Presidente de la Comunidad
     contact:
       form:
         submit: Enviar

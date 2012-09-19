@@ -10,11 +10,23 @@ gl:
   company:
     home:
       main:
-        title: Nosas Oficinas
-        content: Gestión integral de Comunidades de Propietarios, acorde con los principios de total transparencia y fiabilidad en cuanto al control de ingresos y gastos, con emisión puntual de informes económicos semestrales; agilidad y eficacia en la resolución de averías; probada experiencia en temas legales de Propiedad Horizontal; asesoramiento cualificado a medio de Técnicos asociados para dictamen y proyecto sobre realización de Obras Mayores de reparación y reforma en los edificios.
+        title: As Nosas Oficinas
+        content: Xestión integral de Comunidades de Propietarios, acorde cos principios de total transparencia e fiabilidad en cuanto ó control de ingresos e gastos, coa emisión puntual de informes económicos semestrales; axilidade e eficacia na resolución de averías; probada experiencia en temas legales de Propiedade Horizontal; asesoramento cualificado a medio de Técnicos asociados para dictamen e proxecto sobre realización de Obras Maiores de reparación e reforma nos edificios.
     services:
       title: Nos Servizos
       content: Gestión de facturación mensual.-Atención de averías.- Remisión de informe económico semestral.- Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar.- Asesoría Jurídica sobre temas de Propiedad Horizontal.- Gestión de reclamación a morosos.- Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo.- Seguros de Comunidades.- Seguros Especiales de Garajes.- Seguros de Hogar.- Seguros Varios.
+      comunity:
+        title_comunity: Comunidade
+        com_fact_monthly: Xestión de facturación mensual
+        com_at_breakdown: Atención de averías
+        com_rep_semiannual_economy: Remisión do informe económico semestral
+        com_cel_assembly: Celebración da Xunta Ordinaria e cantas Extraordinarias se precisen celebrar
+        com_ad_legal: Asesoría Xurídica sobre temas de Propiedade Horizontal
+        com_claim_defaulter: Xestión de reclamación a morosos
+        com_custom_attention: Atención personalizada a cada propietario con contas individualizadas
+        com_ask_subvention: Tramitación de solicitude de subvencións ante o Instituto Galego da Vivienda e Solo (IGVS)
+        com_budgets: Confeción de presupostos ordinarios e extraordinarios
+        com_maintenance: Xestión de reparación e mantenimento do edificio, baixo supervisión e visto bo do Presidente da Comunidad
     contact:
       form:
         submit: Enviar
