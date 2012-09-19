@@ -9,14 +9,14 @@
 
 .container
   .row
-    .span9
+    .span10
       .well
         %h1= t(".comunity.title_comunity")
         %ul
         -comunity_services_list.each do |service|
           %li= comunity_services_traductor(service)
 
-    .span3
+    .span2
       .well
         = link_to t(".submit_form_contact"),company_contact_path , class: "btn btn-large"
 
