@@ -39,6 +39,26 @@ gl:
         ins_burial: Decesos
         company_work: Compañías coas que traballamos
       submit_form_contact: Contactar
+    links:
+      title: Enlaces
+      link_interesting:
+        link_interesting_title: Enlaces de interés
+        link_comunity_management: Xestion de Comunidades
+        link_neighboor_comunity: Comunidades de Veciños
+        link_home_dictionary: Diccionario de Vivenda
+        link_save_energy: Aforre Enerxía
+        link_comunity_insurance: Seguro Comunidades
+        link_life_insurance: Seguro do Fogar
+        link_legal_state: Lexislación Inmobiliaria Estatal
+        link_legal_autonomic: Lexislacion Inmobiliaria Autónomica
+        link_news: Noticias
+        link_international_news: Prensa Internacional
+        link_spanish_news: Prensa Española digital
+      link_city:
+        link_city_title: Conozca a súa cidade
+        link_town_hall: Concello
+        link_panoramic: Panorámicas
+        link_phone: Telefonos, Emerxencias e Outros
     contact:
       form:
         submit: Enviar

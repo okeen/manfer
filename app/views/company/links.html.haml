@@ -1,2 +1,25 @@
-%h1 Company#links
-%p Find me in app/views/company/links.html.haml
+- content_for :title do t(".title") end
+
+- interesting_links_list = ["link_comunity_management","link_neighboor_comunity","link_home_dictionary",
+"link_save_energy","link_comunity_insurance","link_life_insurance","link_legal_state",
+"link_legal_autonomic","link_news","link_international_news","link_spanish_news"]
+
+- city_links_list = ["link_town_hall","link_panoramic","link_phone"]
+
+
+.container
+  .row
+    .span12
+      .well
+        %h1= t(".link_interesting.link_interesting_title")
+        %ul
+        -interesting_links_list.each do |link|
+          %li= links_interesting_traductor(link)
+
+  .row
+    .span12
+      .well
+        %h1= t(".link_city.link_city_title")
+        %ul
+        -city_links_list.each do |link|
+          %li= links_city_traductor(link)
