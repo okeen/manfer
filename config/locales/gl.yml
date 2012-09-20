@@ -41,6 +41,7 @@ gl:
       submit_form_contact: Contactar
     links:
       title: Enlaces
+      visit: Visitar
       link_interesting:
         link_interesting_title: Enlaces de interés
         link_comunity_management: Xestion de Comunidades

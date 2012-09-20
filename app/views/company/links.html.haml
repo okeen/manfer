@@ -4,7 +4,8 @@
 "link_save_energy","link_comunity_insurance","link_life_insurance","link_legal_state",
 "link_legal_autonomic","link_news","link_international_news","link_spanish_news"]
 
-- city_links_list = ["link_town_hall","link_panoramic","link_phone"]
+- city_links_list = [["link_town_hall",'www.google.es'],
+["link_panoramic","www.amazon.es"],["link_phone","www.facebook.es"]]
 
 
 .container
@@ -14,7 +15,9 @@
         %h1= t(".link_interesting.link_interesting_title")
         %ul
         -interesting_links_list.each do |link|
-          %li= links_interesting_traductor(link)
+          %li
+            %span= links_interesting_traductor(link)
+            %span= link_to t(".visit"),company_contact_path , class: "label label-info"
 
   .row
     .span12
@@ -22,4 +25,6 @@
         %h1= t(".link_city.link_city_title")
         %ul
         -city_links_list.each do |link|
-          %li= links_city_traductor(link)
+          %li
+            %span= links_city_traductor(link[0])
+            %span= link_to t(".visit"), link[1], :target => "_blank", class: "label label-info"
