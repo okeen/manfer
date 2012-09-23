@@ -9,6 +9,7 @@ es:
     contact: Contacto
   company:
     home:
+      title: Manfer Comunidades y Seguros
       main:
         title: Nuestras Oficinas
         content: Gestión integral de Comunidades de Propietarios, acorde con los principios de total transparencia y fiabilidad en cuanto al control de ingresos y gastos, con emisión puntual de informes económicos semestrales; agilidad y eficacia en la resolución de averías; probada experiencia en temas legales de Propiedad Horizontal; asesoramiento cualificado a medio de Técnicos asociados para dictamen y proyecto sobre realización de Obras Mayores de reparación y reforma en los edificios.
@@ -66,10 +67,10 @@ es:
     contact:
       title: Contacto
       form:
+        title: Contacte con nosotros
         submit: Enviar
-
+      text: Introduzca su información de contacto y la consulta que nos desee realizar. Contactaremos con usted para ofrecerle nuestra solución
   contact:
-
     interest:
       comunidades: Comunidades
       seguros: Seguros

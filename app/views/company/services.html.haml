@@ -11,21 +11,22 @@
   .row
     .span8
       .well
-        %h1= t(".comunity.title_comunity")
+        %h2= t(".comunity.title_comunity")
         %ul
         -comunity_services_list.each do |service|
           %li= comunity_services_traductor(service)
 
     .span4
       .well.pagination-centered
-        %h3= t ".quote.title"
+        %h2.label.label-important= t(".quote.title").upcase
         %p=  t ".quote.content"
         = link_to t(".quote.submit"),company_contact_path , class: "btn btn-large"
-
+        %hr
+        = image_tag "agreement.jpeg"
   .row
     .span4
       .well
-        %h1= t(".insurance.title")
+        %h2= t(".insurance.title")
         %ul
         -insurances_services_list.each do |service|
           %li= insurances_services_traductor(service)

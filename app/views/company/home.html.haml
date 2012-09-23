@@ -1,8 +1,12 @@
+- content_for :meta_title do
+  = "#{ t(".title") }"
+
+%br
 .container
   .row
     .span12
       .well.paginate-center
-        %h2= t(".services.title")
+        %h2= t(".title")
         = image_tag "logo.jpeg", id: "home_background"
         .carousel.slide.hide
           .carousel-inner

@@ -1,15 +1,19 @@
-.row
+.container
+  .row
 
-  = simple_form_for :contact, html: {class: "span7 form-horizontal well"} do |f|
-    %fieldset
-      %legend= t(".form.title")
-      .span3
-        = f.input :name, placeholder: "ej: Juan Peleteiro"
-      .span3
-        = f.input :email, placeholder: "ej: juan.peleteiro@gmail.com"
-      .span3
-        = f.input :message, as: "text", placeholder: "blah blah", cols: 80;
-      .span3
-        = f.input :interest, collection: Contact.interest_values, include_blank: false
-        %br
-        = f.submit t(".form.submit") , class: "btn btn-large"
+    = simple_form_for :contact, html: {class: "span7 form-horizontal well"} do |f|
+      %fieldset
+        %legend= t(".form.title")
+        .span3
+          = f.input :name, placeholder: "ej: Juan Peleteiro"
+        .span3
+          = f.input :email, placeholder: "ej: juan.peleteiro@gmail.com"
+        .span3
+          = f.input :message, as: "text", placeholder: "blah blah", cols: 80;
+        .span3
+          = f.input :interest, collection: Contact.interest_values, include_blank: false
+          %br
+          = f.submit t(".form.submit") , class: "btn btn-large"
+
+    .well.span4
+      %p= t(".text")

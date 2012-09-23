@@ -5,11 +5,11 @@
 
 $ ->
   @locale =new LocaleChooserView()
-  $(".carousel").carousel interval: 2000
+  $(".carousel").carousel interval: 5000
   setTimeout ()->
     $("#home_background").fadeOut(800)
     setTimeout ()->
-      $(".carousel").show()
+      $(".carousel").fadeIn(800)
     , 800
-  , 5000
+  , 3000
 
