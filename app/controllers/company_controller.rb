@@ -14,7 +14,7 @@ class CompanyController < ApplicationController
 
   def contact
     set_tab [:contact]
+    @contact = Contact.new params[:contact]
   end
-
 
 end
