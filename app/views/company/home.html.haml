@@ -1,5 +1,23 @@
 .container
   .row
+    .span12
+      .well.paginate-center
+        %h2= t(".services.title")
+        = image_tag "logo.jpeg", id: "home_background"
+        .carousel.slide.hide
+          .carousel-inner
+            .item
+              =image_tag "ejemplos/ejemplo2.jpeg"
+              .carousel-caption
+                %h4 Boooh!
+                %p ejemplo de texto q va aqui
+            .item
+              =image_tag "ejemplos/ejemplo2.jpeg"
+              .carousel-caption
+                %h4 Baaaaah!
+                %p eotro jemplo de texto q va aqui
+
+  .row
     .span6
       .well
         %h2= t(".main.title")
@@ -9,8 +27,3 @@
       .well
         = image_tag "oficina.jpeg"
 
-  .row
-    .span6
-      .well
-        %h2= t(".services.title")
-        %p= raw t(".services.content")

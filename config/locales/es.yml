@@ -38,7 +38,10 @@ es:
         ins_house: Seguros de Casa
         ins_burial: Decesos
         company_work: Compañías con las que trabajamos
-      submit_form_contact: Contactar
+      quote:
+        title: Solicita un presupuesto
+        content: Contacta con nosotros para que podamos analizar tus necesidades y ofrecerte una solución a la medida.
+        submit: Contactar
     links:
       title: Enlaces
       visit: Visitar
