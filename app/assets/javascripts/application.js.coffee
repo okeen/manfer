@@ -5,11 +5,8 @@
 
 $ ->
   @locale =new LocaleChooserView()
-  $(".carousel").carousel interval: 5000
-  setTimeout ()->
-    $("#home_background").fadeOut(800)
-    setTimeout ()->
-      $(".carousel").fadeIn(800)
-    , 800
-  , 3000
-
+  
+  $('#s3slider').s3Slider({
+      timeOut: 4000
+  });
+  

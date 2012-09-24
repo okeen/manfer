@@ -8,18 +8,12 @@
       .well.paginate-center
         %h2= t(".title")
         = image_tag "logo.jpeg", id: "home_background"
-        .carousel.slide.hide
-          .carousel-inner
-            .item
+        #s3slider
+          %ul{:id=>"s3sliderContent"}
+            %li{:class=>"s3sliderImage", :style=>"display: none; "}
+              =image_tag "ejemplos/ejemplo1.jpeg"
+            %li{:class=>"s3sliderImage", :style=>"display: none; "}
               =image_tag "ejemplos/ejemplo2.jpeg"
-              .carousel-caption
-                %h4 Boooh!
-                %p ejemplo de texto q va aqui
-            .item
-              =image_tag "ejemplos/ejemplo2.jpeg"
-              .carousel-caption
-                %h4 Baaaaah!
-                %p eotro jemplo de texto q va aqui
 
   .row
     .span6
