@@ -38,10 +38,14 @@ gl:
         ins_house: Seguros de Casa
         ins_burial: Decesos
         company_work: Compañías coas que traballamos
-      submit_form_contact: Contactar
+      quote:
+        title: Solicita un presuposto
+        content: Contacta con nós para que poidamos analizar as túas necesidades e ofrecerche unha solución a medida.
+        submit: Contactar
     links:
       title: Enlaces
       visit: Visitar
+      most_important_link: Enlace importante
       link_interesting:
         link_interesting_title: Enlaces de interés
         link_comunity_management: Xestion de Comunidades
