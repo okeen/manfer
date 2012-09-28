@@ -1,12 +1,14 @@
 #= require jquery
 #= require jquery_ujs
-#= require bootstrap
 #= require_tree .
+#= require_tree ./modules
 
 $ ->
-  @locale =new LocaleChooserView()
-  
-  $('#s3slider').s3Slider({
-      timeOut: 4000
-  });
-  
+  @locale = new LocaleChooserView()
+  $(".royalSlider").royalSlider
+    keyboardNavEnabled: true
+    autoPlay: {
+      enabled: true
+      delay: 5000
+    }
+

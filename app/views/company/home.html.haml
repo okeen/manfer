@@ -7,13 +7,19 @@
     .span12
       .well.paginate-center
         %h2= t(".title")
-        = image_tag "logo.jpeg", id: "home_background"
-        #s3slider
-          %ul{:id=>"s3sliderContent"}
-            %li{:class=>"s3sliderImage", :style=>"display: none; "}
-              =image_tag "ejemplos/ejemplo1.jpeg"
-            %li{:class=>"s3sliderImage", :style=>"display: none; "}
-              =image_tag "ejemplos/ejemplo2.jpeg"
+        = image_tag "logo.jpeg", id: "home_background", class: "hide"
+        .royalSlider.rsDefault
+          .sliderItem
+            =image_tag "ejemplos/ejemplo1.jpeg", class: "rsImg"
+            .rsABlock{ "data" => { "move-effect" => "top" }}
+              %p#block_1_1= t(".block1.text1")
+            .rsABlock{ "data" => { "move-effect" => "left" }}
+              %br
+              %br
+              %br
+              %h1.white Bloque de segundo nivel
+
+          =image_tag "ejemplos/ejemplo2.jpeg", class: "rsImg"
 
   .row
     .span6
