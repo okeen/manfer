@@ -1,15 +1,14 @@
 #= require jquery
 #= require jquery_ujs
-#= require bootstrap
 #= require_tree .
+#= require_tree ./modules
 
 $ ->
-  @locale =new LocaleChooserView()
-  $(".carousel").carousel interval: 5000
-  setTimeout ()->
-    $("#home_background").fadeOut(800)
-    setTimeout ()->
-      $(".carousel").fadeIn(800)
-    , 800
-  , 3000
+  @locale = new LocaleChooserView()
+  $(".royalSlider").royalSlider
+    keyboardNavEnabled: true
+    autoPlay: {
+      enabled: true
+      delay: 5000
+    }
 

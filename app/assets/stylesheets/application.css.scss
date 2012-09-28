@@ -16,13 +16,16 @@
 
 
 $carousel_image_size: 400px;
-.carousel {
-  min-height: $carousel_image_size;
-  img {
-    height: 400px;
+.royalSlider {
+  height: $carousel_image_size;
+  #block_1_1 {
+    color: blue;
+    font-size: 24px;
+    right: 0%;
   }
 }
 
 #home_background {
   height: $carousel_image_size;
 }
+

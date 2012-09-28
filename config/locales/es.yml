@@ -46,6 +46,7 @@ es:
     links:
       title: Enlaces
       visit: Visitar
+      most_important_link: Enlace importante
       link_interesting:
         link_interesting_title: Enlaces de interés
         link_comunity_management: Gestion de Comunidades

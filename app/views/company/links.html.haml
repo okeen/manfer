@@ -10,7 +10,7 @@
 
 .container
   .row
-    .span12
+    .span5
       .well
         %h1= t(".link_interesting.link_interesting_title")
         %ul
@@ -19,8 +19,16 @@
             %span= links_interesting_traductor(link)
             %span= link_to t(".visit"),company_contact_path , class: "label label-info"
 
-  .row
-    .span12
+    .span2
+      %br
+      %br
+      %br
+      %br
+      %br
+      =image_tag "enlaces.jpg"
+      %h2.label.label-important= t(".most_important_link").upcase
+
+    .span5
       .well
         %h1= t(".link_city.link_city_title")
         %ul
@@ -28,3 +36,11 @@
           %li
             %span= links_city_traductor(link[0])
             %span= link_to t(".visit"), link[1], :target => "_blank", class: "label label-info"
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
