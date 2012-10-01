@@ -75,3 +75,6 @@ es:
     interest:
       comunidades: Comunidades
       seguros: Seguros
+  footer:
+    copyright:
+      content: "Copyright 2012(c) Manfer comunidades y seguros"

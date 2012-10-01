@@ -30,24 +30,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="55" selection-start="720" selection-end="720" vertical-scroll-proportion="-5.4">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="royalslider.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/royalslider.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="4" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="contacts_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
@@ -69,16 +51,16 @@
           <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="17" selection-start="432" selection-end="432" vertical-scroll-proportion="-16.64">
+                <state line="26" column="17" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_footer.html.haml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="_footer.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/application/_footer.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="39" selection-start="562" selection-end="562" vertical-scroll-proportion="0.31154382">
+                <state line="14" column="38" selection-start="561" selection-end="561" vertical-scroll-proportion="-8.96">
                   <folding />
                 </state>
               </provider>
@@ -111,6 +93,24 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="royalslider.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/royalslider.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="4" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.css.scss" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="55" selection-start="720" selection-end="720" vertical-scroll-proportion="0.22580644">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -118,20 +118,17 @@
           <file leaf-file-name="services.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/company/services.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="34" selection-start="681" selection-end="700" vertical-scroll-proportion="-6.36">
+                <state line="22" column="34" selection-start="681" selection-end="700" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contact.html.haml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="contact.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/company/contact.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="0.42280945">
-                  <folding>
-                    <element signature="e#130#140#0" expanded="true" />
-                    <element signature="e#624#634#0" expanded="true" />
-                  </folding>
+                <state line="19" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="-12.16">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -181,21 +178,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.html.haml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/company/home.html.haml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="41" selection-start="757" selection-end="757" vertical-scroll-proportion="-13.44">
-                  <folding>
-                    <element signature="n#t(&quot;.title&quot;)#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="contact.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="19" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.html.haml" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/company/home.html.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="41" selection-start="757" selection-end="757" vertical-scroll-proportion="0.4673157">
                   <folding />
                 </state>
               </provider>
@@ -235,6 +230,25 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Rails</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>RailsI18nInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -992,13 +1006,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.haml" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.haml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1126,13 +1140,6 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -1164,6 +1171,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -1415,37 +1429,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contact/contact.text.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/rs-default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/company/home.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="41" selection-start="757" selection-end="757" vertical-scroll-proportion="-13.44">
-          <folding>
-            <element signature="n#t(&quot;.title&quot;)#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="720" selection-end="720" vertical-scroll-proportion="-5.4">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="432" selection-end="432" vertical-scroll-proportion="-16.64">
+        <state line="26" column="17" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1459,9 +1453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/company/links.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
@@ -1473,24 +1465,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/company/services.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="681" selection-end="700" vertical-scroll-proportion="-6.36">
+        <state line="22" column="34" selection-start="681" selection-end="700" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/company/contact.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="0.42280945">
-          <folding>
-            <element signature="e#130#140#0" expanded="true" />
-            <element signature="e#624#634#0" expanded="true" />
-          </folding>
+        <state line="19" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="-12.16">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/_footer.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="562" selection-end="562" vertical-scroll-proportion="0.31154382">
+        <state line="14" column="38" selection-start="561" selection-end="561" vertical-scroll-proportion="-8.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/company/home.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="41" selection-start="757" selection-end="757" vertical-scroll-proportion="0.4673157">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="55" selection-start="720" selection-end="720" vertical-scroll-proportion="0.22580644">
           <folding />
         </state>
       </provider>
