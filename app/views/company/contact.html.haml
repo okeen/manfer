@@ -1,9 +1,8 @@
 .container
   .row
-
     = simple_form_for @contact, html: {class: "span7 form-horizontal well"} do |f|
       %fieldset
-        %legend= t(".form.title")
+        %h1= t ".title"
         .span3
           = f.input :name, placeholder: "ej: Juan Peleteiro"
         .span3
@@ -16,4 +15,7 @@
           = f.submit t(".form.submit") , class: "btn btn-large"
 
     .well.span4
-      %p= t(".text")
+      %p= content_with_icon t(".text"), "pencil", :white
+
+    .well.span4.pagination-centered
+      = image_tag "qr.png"

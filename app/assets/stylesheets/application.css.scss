@@ -19,9 +19,31 @@ $carousel_image_size: 400px;
 .royalSlider {
   height: $carousel_image_size;
   #block_1_1 {
-    color: blue;
-    font-size: 24px;
-    right: 0%;
+    p {
+      color: white;
+      font-size: 45px;
+      line-height: 45px;
+      margin-left: 30%;
+      strong {
+        color: blue;
+      }
+    }
+
+  }
+  #block_2_1 {
+    p {
+      color: white;
+      font-size: 45px;
+      line-height: 45px;
+      margin-top: 40%;
+      text-align: right;
+      left: auto;
+      right: 30%;
+      strong {
+        color: green;
+      }
+    }
+
   }
 }
 

@@ -7,19 +7,20 @@
     .span12
       .well.paginate-center
         %h2= t(".title")
-        = image_tag "logo.jpeg", id: "home_background", class: "hide"
         .royalSlider.rsDefault
           .sliderItem
-            =image_tag "ejemplos/ejemplo1.jpeg", class: "rsImg"
-            .rsABlock{ "data" => { "move-effect" => "top" }}
-              %p#block_1_1= t(".block1.text1")
-            .rsABlock{ "data" => { "move-effect" => "left" }}
+            =image_tag "ejemplos/ejemplo1.jpeg", class: "rsImg", alt: "una descripicon cualquiera"
+            #block_1_1.rsABlock{ "data" => { "move-effect" => "left", "speed" => "3000", "delay" => "500" }}
               %br
               %br
               %br
-              %h1.white Bloque de segundo nivel
+              %p.white Tu gestora de <strong>confianza</strong>
 
-          =image_tag "ejemplos/ejemplo2.jpeg", class: "rsImg"
+          .sliderItem
+            =image_tag "ejemplos/ejemplo2.jpeg", class: "rsImg"
+            #block_2_1.rsABlock{ "data" => { "move-effect" => "right", "speed" => "3000", "delay" => "500" }}
+              %p.white Comprometidos con <strong>tu hogar</strong>
+
 
   .row
     .span6
