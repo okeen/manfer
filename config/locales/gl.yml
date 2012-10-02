@@ -5,7 +5,7 @@ gl:
   menu:
     home: Inicio
     services: Servizos
-    links: Enlaces
+    links: Clientes
     contact: Contacto
   company:
     home:
@@ -43,7 +43,7 @@ gl:
         content: Contacta con nós para que poidamos analizar as túas necesidades e ofrecerche unha solución a medida.
         submit: Contactar
     links:
-      title: Enlaces
+      title: Clientes
       visit: Visitar
       most_important_link: Enlace importante
       link_interesting:
@@ -59,11 +59,6 @@ gl:
         link_news: Noticias
         link_international_news: Prensa Internacional
         link_spanish_news: Prensa Española digital
-      link_city:
-        link_city_title: Conozca a súa cidade
-        link_town_hall: Concello
-        link_panoramic: Panorámicas
-        link_phone: Telefonos, Emerxencias e Outros
     contact:
       form:
         submit: Enviar

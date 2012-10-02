@@ -5,7 +5,7 @@ es:
   menu:
     home: Inicio
     services: Servicios
-    links: Enlaces
+    links: Clientes
     contact: Contacto
   company:
     home:
@@ -44,7 +44,7 @@ es:
         content: Contacta con nosotros para que podamos analizar tus necesidades y ofrecerte una solución a la medida.
         submit: Contactar
     links:
-      title: Enlaces
+      title: Clientes
       visit: Visitar
       most_important_link: Enlace importante
       link_interesting:
@@ -60,11 +60,6 @@ es:
         link_news: Noticias
         link_international_news: Prensa Internacional
         link_spanish_news: Prensa Española digital
-      link_city:
-        link_city_title: Conozca su iciudad
-        link_town_hall: Ayuntamiento
-        link_panoramic: Panorámicas
-        link_phone: Telefonos, Emergencias y Otros
     contact:
       title: Contacto
       form:
