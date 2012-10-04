@@ -2,10 +2,12 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 es:
+  submit: Enviar
+  enter: Acceder
   menu:
     home: Inicio
     services: Servicios
-    links: Enlaces
+    links: Clientes
     contact: Contacto
   company:
     home:
@@ -13,6 +15,9 @@ es:
       main:
         title: Nuestras Oficinas
         content: Gestión integral de Comunidades de Propietarios, acorde con los principios de total transparencia y fiabilidad en cuanto al control de ingresos y gastos, con emisión puntual de informes económicos semestrales; agilidad y eficacia en la resolución de averías; probada experiencia en temas legales de Propiedad Horizontal; asesoramiento cualificado a medio de Técnicos asociados para dictamen y proyecto sobre realización de Obras Mayores de reparación y reforma en los edificios.
+      slider:
+        first: Tus gestores de <strong>confianza</strong>
+        second: Comprometidos con <strong>tu hogar</strong>
     services:
       title: Servicios
       content: Gestión de facturación mensual.-Atención de averías.- Remisión de informe económico semestral.- Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar.- Asesoría Jurídica sobre temas de Propiedad Horizontal.- Gestión de reclamación a morosos.- Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo.- Seguros de Comunidades.- Seguros Especiales de Garajes.- Seguros de Hogar.- Seguros Varios.
@@ -44,7 +49,7 @@ es:
         content: Contacta con nosotros para que podamos analizar tus necesidades y ofrecerte una solución a la medida.
         submit: Contactar
     links:
-      title: Enlaces
+      title: Clientes
       visit: Visitar
       most_important_link: Enlace importante
       link_interesting:
@@ -60,11 +65,10 @@ es:
         link_news: Noticias
         link_international_news: Prensa Internacional
         link_spanish_news: Prensa Española digital
-      link_city:
-        link_city_title: Conozca su iciudad
-        link_town_hall: Ayuntamiento
-        link_panoramic: Panorámicas
-        link_phone: Telefonos, Emergencias y Otros
+      customer_link:
+        title: Gestión propietarios
+        content: Pulsa en el siguiente enlace para acceder a la página de gestión de propietarios
+
     contact:
       title: Contacto
       form:
@@ -77,4 +81,5 @@ es:
       seguros: Seguros
   footer:
     copyright:
+      title: Información Legal
       content: "Copyright 2012(c) Manfer comunidades y seguros"

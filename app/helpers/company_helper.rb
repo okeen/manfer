@@ -8,7 +8,7 @@ module CompanyHelper
   end
 
   def links_interesting_traductor(link)
-    return t(".link_interesting."+link)
+    return t(".link_interesting." + link)
   end
 
   def links_city_traductor(link)
