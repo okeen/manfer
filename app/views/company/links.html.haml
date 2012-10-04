@@ -10,21 +10,20 @@
 
 .container
   .row
-    .span9
+    .span8
       .well
         %h1= t(".link_interesting.link_interesting_title")
         %ul
         -interesting_links_list.each do |link|
           %li
             %span= links_interesting_traductor(link)
-            %span= link_to t(".visit"),company_contact_path , class: "label label-info"
+            %span= link_to t(".visit"), company_contact_path , class: "label label-info", target: :_blank
 
-    .span3
-      .well
-        %br
-        %br
-        =image_tag "enlaces.jpg"
+    .span4
+      .well.pagination-centered
+        %h2.label.label-important= t(".customer_link.title").upcase
+        %p=  t ".customer_link.content"
+        = link_to t("enter"), "http://www.netfincasweb.com/index.php/acceder-despacho",
+          class: "btn btn-large", target: :_blank
         %hr
-        %h2.label.label-important= t(".most_important_link").upcase
-        %br
-        %br
+        = image_tag "gestion_hogar.jpeg"
