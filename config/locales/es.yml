@@ -69,7 +69,10 @@ es:
         link_news: Noticias
         link_international_news: Prensa Internacional
         link_spanish_news: Prensa Española digital
-
+        link_coadga: Colegio Oficial de Administradores de Fincas de Galicia
+        link_village: Ayuntamiento
+        link_panoramics: Panorámicas
+        link_phones: Teléfonos, Emergencias y Otros
     contact:
       title: Contacto
       form:

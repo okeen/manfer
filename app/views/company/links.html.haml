@@ -7,7 +7,21 @@
         %h1= t(".link_interesting.link_interesting_title")
         %ul
           %li
-            %span= t ".link_neighboor_comunity"
-            %span= link_to t(".visit"), "http://google.es" , class: "label label-info", target: :_blank
-
+            %span= t ".link_interesting.link_neighboor_comunity"
+            %span= link_to t(".visit"), "http://www.euroresidentes.com/vivienda/comunidades_de_vecinos/" , class: "label label-info", target: :_blank
+          %li
+            %span= t ".link_interesting.link_home_dictionary"
+            %span= link_to t(".visit"), "http://www.euroresidentes.com/vivienda/hipotecas/diccionario/index_2.htm" , class: "label label-info", target: :_blank
+          %li
+            %span= t ".link_interesting.link_coadga"
+            %span= link_to t(".visit"), "http://www.coafga.org/" , class: "label label-info", target: :_blank
+          %li
+            %span= t ".link_interesting.link_village"
+            %span= link_to t(".visit"), "http://www.vilagarcia.es/" , class: "label label-info", target: :_blank
+          %li
+            %span= t ".link_interesting.link_panoramics"
+            %span= link_to t(".visit"), "http://www.descubregalicia.com/" , class: "label label-info", target: :_blank
+          %li
+            %span= t ".link_interesting.link_phones"
+            %span= link_to t(".visit"), "http://www.turvilagarcia.com/telefono_interes.asp" , class: "label label-info", target: :_blank
     = render "customers_manage_community"
