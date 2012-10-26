@@ -1,29 +1,13 @@
 - content_for :title do t(".title") end
 
-- interesting_links_list = ["link_comunity_management","link_neighboor_comunity","link_home_dictionary",
-"link_save_energy","link_comunity_insurance","link_life_insurance","link_legal_state",
-"link_legal_autonomic","link_news","link_international_news","link_spanish_news"]
-
-- city_links_list = [["link_town_hall",'www.google.es'],
-["link_panoramic","www.amazon.es"],["link_phone","www.facebook.es"]]
-
-
 .container
   .row
     .span8
       .well
         %h1= t(".link_interesting.link_interesting_title")
         %ul
-        -interesting_links_list.each do |link|
           %li
-            %span= links_interesting_traductor(link)
-            %span= link_to t(".visit"), company_contact_path , class: "label label-info", target: :_blank
+            %span= t ".link_neighboor_comunity"
+            %span= link_to t(".visit"), "http://google.es" , class: "label label-info", target: :_blank
 
-    .span4
-      .well.pagination-centered
-        %h2.label.label-important= t(".customer_link.title").upcase
-        %p=  t ".customer_link.content"
-        = link_to t("enter"), "http://www.netfincasweb.com/index.php/acceder-despacho",
-          class: "btn btn-large", target: :_blank
-        %hr
-        = image_tag "gestion_hogar.jpeg"
+    = render "customers_manage_community"

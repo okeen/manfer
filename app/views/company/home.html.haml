@@ -25,12 +25,9 @@
 
 
   .row
-    .span6
+    .span8
       .well
         %h2= t(".main.title")
         %p= raw t(".main.content")
 
-    .span6
-      .well
-        = image_tag "oficina.jpeg"
-
+    = render "customers_manage_community"

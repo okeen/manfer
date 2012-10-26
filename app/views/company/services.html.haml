@@ -1,11 +1,11 @@
 - content_for :title do t(".title") end
 
-- comunity_services_list = ["com_fact_monthly","com_at_breakdown","comsubmit_form_contact_rep_semiannual_economy",
-"com_cel_assembly","com_ad_legal","com_claim_defaulter","com_custom_attention",
-"com_ask_subvention","com_budgets","com_maintenance"]
+- comunity_services_list = ["fact_monthly","at_breakdown","web_access",
+"cel_assembly","ad_legal","claim_defaulter","custom_attention",
+"ask_subvention","budgets","maintenance"]
 
-- insurances_services_list = ["ins_comunity","ins_home","ins_life","ins_car",
-"ins_boat","ins_decennial","ins_house","ins_burial"]
+- insurances_services_list = ["comunity","home","life","car",
+"boat","decennial","house","burial"]
 
 .container
   .row
@@ -27,25 +27,15 @@
         %hr
         = image_tag "agreement.jpeg"
   .row
-    .span4
-      .well
-        %h2= t(".insurance.title")
-        %ul
-        -insurances_services_list.each do |service|
-          %li= insurances_services_traductor(service)
+    .span12
+      .well.clearfix
+        .span4
+          %h2= t(".insurance.title")
+          %ul
+          -insurances_services_list.each do |service|
+            %li= insurances_services_traductor(service)
 
-    .span8
-      .well
-        %h2= t(".insurance.company_work")
-        %br
-        = image_tag "reale.jpg"
-        = image_tag "allianz.jpg"
-        = image_tag "axa.jpg"
-        = image_tag "caser.jpg"
-        = image_tag "estrella.jpg"
-        %br
-        %br
-        = image_tag "groupama.jpg"
-        = image_tag "mapfre.jpg"
-        = image_tag "mutua.jpg"
-        = image_tag "vitalicio.jpg"
+        .span7
+          %br
+          %br
+          = image_tag "helvetia.jpeg"

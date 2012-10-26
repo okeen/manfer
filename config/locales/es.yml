@@ -9,6 +9,10 @@ es:
     services: Servicios
     links: Clientes
     contact: Contacto
+  customer_link:
+    title: Gestión propietarios
+    content: Pulsa en el siguiente enlace para acceder a la página de gestión de su comunidad
+
   company:
     home:
       title: Manfer Comunidades y Seguros
@@ -23,27 +27,27 @@ es:
       content: Gestión de facturación mensual.-Atención de averías.- Remisión de informe económico semestral.- Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar.- Asesoría Jurídica sobre temas de Propiedad Horizontal.- Gestión de reclamación a morosos.- Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo.- Seguros de Comunidades.- Seguros Especiales de Garajes.- Seguros de Hogar.- Seguros Varios.
       comunity:
         title_comunity: Comunidad
-        com_fact_monthly: Gestión de facturación mensual
-        com_at_breakdown: Atención de averías
-        com_rep_semiannual_economy: Remisión de informe económico semestral
-        com_cel_assembly: Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar
-        com_ad_legal: Asesoría Jurídica sobre temas de Propiedad Horizontal
-        com_claim_defaulter: Gestión de reclamación a morosos
-        com_custom_attention: Atención personalizada a cada propietario con cuentas individualizadas.
-        com_ask_subvention: Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo (IGVS)
-        com_budgets: Confección de presupuestos ordinarios y extraordinarios
-        com_maintenance: Gestión de reparación y mantenimiento del edificio, bajo supervisión y visto bueno del Presidente de la Comunidad
+        fact_monthly: Gestión de facturación mensual
+        at_breakdown: Atención de averías
+        web_access: "Acceso web (Presidente/a y Junta Directiva) al estado contable de la comunidad, deudores, presupuestos, averías, división horizontal, etc."
+        cel_assembly: Celebración de Junta Ordinaria y cuantas Extraordinarias se precisen celebrar
+        ad_legal: Asesoría Jurídica sobre temas de Propiedad Horizontal
+        claim_defaulter: Gestión de reclamación a morosos
+        custom_attention: Atención personalizada a cada propietario con cuentas individualizadas.
+        ask_subvention: Tramitación de solicitud de subvenciones ante el Instituto Galego da Vivienda e Solo (IGVS)
+        budgets: Confección de presupuestos ordinarios y extraordinarios
+        maintenance: Gestión de reparación y mantenimiento del edificio, bajo supervisión y visto bueno del Presidente de la Comunidad
       insurance:
         title: Seguros
-        ins_comunity: Seguros de Comunidad
-        ins_home: Seguros del Hogar
-        ins_life: Seguros de Vida
-        ins_car: Seguros de Automóvil
-        ins_boat: Seguros de Embarcaciones
-        ins_decennial: Seguro Decenal
-        ins_house: Seguros de Casa
-        ins_burial: Decesos
-        company_work: Compañías con las que trabajamos
+        comunity: Seguros de Comunidad
+        home: Seguros del Hogar
+        life: Seguros de Vida
+        car: Seguros de Automóvil
+        boat: Seguros de Embarcaciones
+        decennial: Seguro Decenal
+        house: Seguros de Casa
+        burial: Decesos
+        company_work: Partners de
       quote:
         title: Solicita un presupuesto
         content: Contacta con nosotros para que podamos analizar tus necesidades y ofrecerte una solución a la medida.
@@ -65,9 +69,6 @@ es:
         link_news: Noticias
         link_international_news: Prensa Internacional
         link_spanish_news: Prensa Española digital
-      customer_link:
-        title: Gestión propietarios
-        content: Pulsa en el siguiente enlace para acceder a la página de gestión de propietarios
 
     contact:
       title: Contacto
@@ -83,3 +84,7 @@ es:
     copyright:
       title: Información Legal
       content: "Copyright 2012(c) Manfer comunidades y seguros"
+    address: "Dirección"
+    email: "Email"
+  header:
+    colegiado: "Nº de colegiado del Colegio de adminsitradores de fincas de Galicia: 4-1246"
