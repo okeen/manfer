@@ -96,10 +96,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="links.html.haml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="links.html.haml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/company/links.html.haml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.021592442">
+                <state line="12" column="38" selection-start="358" selection-end="358" vertical-scroll-proportion="-7.68">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="es.yml" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="79" column="4" selection-start="4190" selection-end="4190" vertical-scroll-proportion="0.6211699">
                   <folding />
                 </state>
               </provider>
@@ -109,15 +118,6 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="contact.html.haml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/company/contact.html.haml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="-12.16">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
@@ -136,10 +136,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="company_helper.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="company_helper.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/helpers/company_helper.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="6" selection-start="200" selection-end="200" vertical-scroll-proportion="0.18485238">
+                <state line="9" column="6" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -157,7 +157,7 @@
           <file leaf-file-name="contact.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="0" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+                <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -187,7 +187,25 @@
           <file leaf-file-name="contact_mailer.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/mailers/contact_mailer.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="35" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
+                <state line="8" column="0" selection-start="225" selection-end="257" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contact.text.haml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact.text.haml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.84">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contacts_controller.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="37" selection-start="258" selection-end="258" vertical-scroll-proportion="0.14795244">
                   <folding />
                 </state>
               </provider>
@@ -205,9 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/s3Slider.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/royalslider.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/company/contact.html.haml" />
         <option value="$PROJECT_DIR$/app/helpers/company_helper.rb" />
@@ -221,6 +236,9 @@
         <option value="$PROJECT_DIR$/config/locales/es.yml" />
         <option value="$PROJECT_DIR$/app/views/company/services.html.haml" />
         <option value="$PROJECT_DIR$/app/views/company/links.html.haml" />
+        <option value="$PROJECT_DIR$/app/mailers/contact_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/contact_mailer/contact.text.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/contacts_controller.rb" />
       </list>
     </option>
   </component>
@@ -417,11 +435,25 @@
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="app/mailers" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.MinorFolderWithDoubleNameNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manfer" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manfer" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Views" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedViewsFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="contact" />
+              <option name="myItemId" value="contact_mailer" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedViewsSubFolderNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,6 +501,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="locales" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manfer" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manfer" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ModelsFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manfer" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manfer" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ModelsFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contact" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.ActiveRecordModelClassNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1414,7 +1478,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.67164177" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18611111" sideWeight="0.8482353" order="0" side_tool="false" content_ui="combo" x="667" y="35" width="389" height="858" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18611111" sideWeight="0.8482353" order="0" side_tool="false" content_ui="combo" x="667" y="35" width="389" height="858" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18611111" sideWeight="0.14352942" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.49839914" order="10" side_tool="true" content_ui="tabs" />
@@ -1484,44 +1548,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/company/contact.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="-12.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/company/home.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="885" selection-end="885" vertical-scroll-proportion="-20.48">
-          <folding>
-            <marker date="1351272406000" expanded="true" signature="785:881" placeholder=".row" />
-            <marker date="1351272406000" expanded="true" signature="849:881" placeholder=".span6" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/company/_customers_manage_community.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="132" selection-end="132" vertical-scroll-proportion="-1.92">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="255" selection-end="255" vertical-scroll-proportion="-7.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/locale_chooser.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
@@ -1557,13 +1583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="34" selection-start="2988" selection-end="2988" vertical-scroll-proportion="0.628447">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/application/_footer.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="45" selection-start="552" selection-end="552" vertical-scroll-proportion="-9.6">
@@ -1590,14 +1609,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/company_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="200" selection-end="200" vertical-scroll-proportion="0.18485238">
+        <state line="9" column="6" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/contact_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="225" selection-end="257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/company/contact.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="-12.16">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/company/links.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.021592442">
+        <state line="12" column="38" selection-start="358" selection-end="358" vertical-scroll-proportion="-7.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/es.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="4" selection-start="4190" selection-end="4190" vertical-scroll-proportion="0.6211699">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact_mailer/contact.text.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.84">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contacts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="258" selection-end="258" vertical-scroll-proportion="0.14795244">
           <folding />
         </state>
       </provider>

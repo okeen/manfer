@@ -13,8 +13,8 @@ class CompanyController < ApplicationController
   end
 
   def contact
-    set_tab [:contact]
-    @contact = Contact.new params[:contact]
+    set_tab [:contact_mailer]
+    @contact = Contact.new params[:contact_mailer]
   end
 
 end

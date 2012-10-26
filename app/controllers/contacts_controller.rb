@@ -1,6 +1,6 @@
 class ContactsController < ApplicationController
   def create
-    @contact = Contact.new params[:contact]
+    @contact = Contact.new params[:contact_mailer]
     if @contact.save
       flash[:info] = t("contact.created")
       redirect_to [:company, :home]
