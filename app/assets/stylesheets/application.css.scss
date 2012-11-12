@@ -55,4 +55,16 @@ $carousel_image_size: 400px;
   width: 500px;
   float: right;
   text-align: right;
+  font-size: 10px;
+}
+
+.navbar, .navbar-inner {
+  background: none !important;
+  background-color: white !important;
+  a {
+    color: #9acd32 !important;
+    &:hover {
+      color: green !important;
+    }
+  }
 }
