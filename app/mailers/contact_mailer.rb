@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  default from: "from@example.com"
+  default from: "info@manfercomunidades.com", bcc: "eneko.taberna@etware.es"
 
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
@@ -8,7 +8,7 @@ class ContactMailer < ActionMailer::Base
   #
   def contact(contact)
     @contact = contact
-    mail to: contact.email,
-         subject: t(".contact.title")
+    mail to: "info@manfercomunidades.com",
+         subject: "Contacto recibido en la web"
   end
 end
