@@ -1,0 +1,14 @@
+%p
+  Hemos recibido un contacto de
+  = @contact.name
+  fechado el
+  = @contact.created_at.to_s(:short)
+
+%h4 Información del contacto recibido:
+%p
+  Email
+  = @contact.email
+  Interés
+  = @contact.interest
+  Mensaje
+  = @contact.message
