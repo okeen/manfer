@@ -16,6 +16,6 @@ class Contact < ActiveRecord::Base
   private
 
   def deliver_email
-    ContactMailer.contact(self).deliver
+    ContactMailer.contact_customer(self).deliver!
   end
 end

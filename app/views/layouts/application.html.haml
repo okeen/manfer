@@ -10,6 +10,7 @@
 
   %body{class: "#{controller_path.split("/").join(" ")}"}
 
+
     = render 'menu'
 
     %br
@@ -18,6 +19,8 @@
       .container
         .row
           .span12
+            = flash[:message]
+
             %h1= yield :title
 
     .container

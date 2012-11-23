@@ -1,6 +1,12 @@
 // First import Bootswatch theme variables http://bit.ly/KIu8IN
 @import 'bootswatch/spruce/variables';
 
+$navbarBackground:                $white;
+$navbarBackgroundHighlight:       $navbarBackground;
+
+$navbarText:                      #9acd32;
+$navbarLinkColor:                 #9acd32;
+
 // Use Twitter Bootstrap
 @import 'bootstrap';
 body { padding-top: 60px; }

@@ -5,7 +5,7 @@
 .container
   .row
     .span12
-      .well.paginate-center
+      .paginate-center
         %h2= t(".title")
         .royalSlider.rsDefault
           .sliderItem
@@ -24,10 +24,12 @@
               %p.white= raw t(".slider.second")
 
 
+  %br
+    %br
   .row
     .span8
-      .well
-        %h2= t(".main.title")
-        %p= raw t(".main.content")
+
+      %h2= t(".main.title")
+      %p= raw t(".main.content")
 
     = render "customers_manage_community"

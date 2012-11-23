@@ -34,5 +34,7 @@ gem "asset_sync"
 gem "paperclip", "~> 2.5"
 gem "simple_form"
 
+gem "inherited_resources"
+
 gem "haml", ">= 3.0.0"
 gem "haml-rails"
